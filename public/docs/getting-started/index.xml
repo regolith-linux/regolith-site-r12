@@ -1,0 +1,91 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regolith – Getting Started</title>
+    <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/</link>
+    <description>Recent content in Getting Started on Regolith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Installation</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Based on your preferred installation method, follow one of the following two sections to install Regolith:&lt;/p&gt;
+&lt;h2 id=&#34;option-1-ubuntu-installer&#34;&gt;Option 1: Ubuntu Installer&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the ISO image and then use an OS installation tool such as USB Creator to write the downloaded file into a USB device. Here are Ubuntu guides for performing this action in &lt;a href=&#34;https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0&#34;&gt;Windows&lt;/a&gt;, &lt;a href=&#34;https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0&#34;&gt;Mac&lt;/a&gt;, and &lt;a href=&#34;https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0&#34;&gt;Ubuntu&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Reboot the computer and select the USB flash drive to boot from.&lt;/li&gt;
+&lt;li&gt;Install or run the live environment by providing information when prompted during the setup process.  See &lt;a href=&#34;https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop&#34;&gt;this tutorial&lt;/a&gt; to learn more about the installation process.&lt;/li&gt;
+&lt;li&gt;When prompted, reboot the computer and login to your new system.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;option-2-ppa&#34;&gt;Option 2: PPA&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the PPA to your system:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;
+$ sudo add-apt-repository ppa:regolith-linux/release
+&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Install the Regolith desktop package:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;
+$ sudo apt install regolith-desktop
+&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Reboot the computer, and when logging in select the &amp;ldquo;Regolith&amp;rdquo; session in the gear menu (⚙️).&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Basics</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</guid>
+      <description>
+        
+        
+        &lt;p&gt;While we&#39;ll cover everything in greater detail in other areas of the documentation, this page covers the very basic users need to know in order to use Regolith.&lt;/p&gt;
+&lt;h2 id=&#34;the-super-key&#34;&gt;The Super Key&lt;/h2&gt;
+&lt;p&gt;Most keybindings you&#39;ll be using with Regolith start with the &lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; key.  This key typically says &amp;ldquo;WIN&amp;rdquo; or has a MS Windows logo on it.  On a Mac it is the Command &lt;span class=&#34;badge badge-warning&#34;&gt;⌘&lt;/span&gt; key.  Going forward, this key will simply be referred to as &lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; but keep in mind that you can change which physical button &lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; maps to in your configuration if you choose to.&lt;/p&gt;
+&lt;h2 id=&#34;launch-an-application&#34;&gt;Launch an Application&lt;/h2&gt;
+&lt;p&gt;After logging in, you&#39;ll be at a blank screen with the bar at the bottom and some keyboard shortcuts on the right.  To launch an application, press &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;space&lt;/span&gt;&lt;/span&gt; and a menu will be presented with all of the applications installed on the system.  If you begin typing the name of the application you wish to launch, the list will filter down to only matching names.  You can also scroll through the list with the arrow keys.&lt;/p&gt;
+&lt;h3 id=&#34;terminal&#34;&gt;Terminal&lt;/h3&gt;
+&lt;p&gt;The terminal is a special application that has it&#39;s own keybinding, &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;enter&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;browser&#34;&gt;Browser&lt;/h3&gt;
+&lt;p&gt;The preferred browser is also special, and can be launched with &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;shift&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;enter&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quit-an-application&#34;&gt;Quit an Application.&lt;/h2&gt;
+&lt;p&gt;Unfortunately in Linux there is no convention that all applications follow for how to quit.  In traditional desktop environments, users often rely on the close box of the window or a global menu system.  Because Regolith has a reduced UI, depending on the application these common mouse-driven ways of exiting apps may not be available.  Depending on the app, one of the following keybindings may cause it to exit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;ctrl&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;w&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;ctrl&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;W&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;ctrl&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;q&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;ctrl&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;Q&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;ctrl&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;d&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;alt&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;F4&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If none of these commands work, it may be that the application has crashed and is not responding to requests from the window manager.  In this case you can kill the focused application with &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;shift&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;q&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;switching-workspaces&#34;&gt;Switching Workspaces&lt;/h2&gt;
+&lt;p&gt;A primary way of managing how applications occupy the screen is by the usage of workspaces.  A workspace is in essence a group of zero or more applications that all present windows on the same physical display.  Users can switch workspaces to &amp;ldquo;gain&amp;rdquo; more space for applications to occupy.  Windows can be moved across workspaces.  Workspaces can be tied to physical display or be moved to other displays as needed.  To switch workspaces, hold down the &lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; key and press one of the number keys.  This will navigate to that workspace.  If any windows exist in a given workspace, it will show in the bar as being active. Thus, by referring to the bar the user can known of which workspaces active applications live.&lt;/p&gt;
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;p&gt;More keybindings are listed in &lt;code&gt;Remontoire&lt;/code&gt;, the shortcut application.  This app is loaded automatically on the first session, but not on successive logins.  The window can be toggled at any time by clicking the circled &lt;span class=&#34;badge badge-warning&#34;&gt;i&lt;/span&gt; icon in the bar, or pressing &lt;span class=&#34;text-nowrap&#34;&gt;&lt;span class=&#34;badge badge-warning&#34;&gt;super&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;shift&lt;/span&gt; &lt;span class=&#34;badge badge-warning&#34;&gt;?&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
